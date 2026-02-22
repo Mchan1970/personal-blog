@@ -1,11 +1,38 @@
-# Hugo build output
+# =========================
+# 1. Hugo 静态博客相关
+# =========================
+# 必须：Hugo 编译生成的最终站点目录
 public/
-
-# Hugo build lock
+# 必须：Hugo 运行时的锁文件
 .hugo_build.lock
+# 推荐：Hugo 生成的资源缓存 
+resources/_gen/
+# 可选：如果使用某些需要统计的 css 框架
+hugo_stats.json
 
-# OS / editor
+# =========================
+# 2. 操作系统与编辑器生成文件
+# =========================
+# Mac 系统文件
 .DS_Store
+.AppleDouble
+# Windows 系统文件
+Thumbs.db
+Thumbs.db:encryptable
 
-# Obsidian local config
+# =========================
+# 3. Obsidian 笔记软件相关
+# =========================
+# 忽略整个 Obsidian 配置文件目录 (由 NAS 负责多端同步)
 .obsidian/
+# 忽略 Obsidian 的本地文件回收站
+.trash/
+
+# =========================
+# 4. 其他环境相关
+# =========================
+# 前端依赖 (如果您的主题有用到)
+node_modules/
+# 临时及日志文件
+*.log
+*.swp
