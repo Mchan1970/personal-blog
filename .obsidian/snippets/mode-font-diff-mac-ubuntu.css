@@ -1,0 +1,44 @@
+/* =========================================================
+   Edit view: Serif (思源宋体 / Noto Serif CJK)
+   Reading view: Sans (思源黑体 / Noto Sans CJK)
+   Works well on macOS + Ubuntu
+   ========================================================= */
+
+/* ---------- EDIT (Source mode + Live Preview / CM6) ---------- */
+.markdown-source-view,
+.markdown-source-view *,
+.cm-editor,
+.cm-editor * {
+  font-family:
+    /* Source Han Serif (common names across platforms) */
+    "Source Han Serif SC", "Source Han Serif CN",
+    /* Noto Serif CJK */
+    "Noto Serif CJK SC", "Noto Serif CJK",
+    /* macOS fallbacks */
+    "Songti SC", "STSong", "Hiragino Mincho ProN",
+    /* general serif fallback */
+    serif !important;
+}
+
+/* ---------- READING (Preview / Reading view) ---------- */
+.markdown-reading-view,
+.markdown-reading-view * {
+  font-family:
+    /* Source Han Sans (common names across platforms) */
+    "Source Han Sans SC", "Source Han Sans CN",
+    /* Noto Sans CJK */
+    "Noto Sans CJK SC", "Noto Sans CJK",
+    /* macOS fallbacks */
+    "PingFang SC", "Hiragino Sans GB",
+    /* Ubuntu common Chinese sans */
+    "WenQuanYi Micro Hei",
+    /* general UI fallback */
+    system-ui, sans-serif !important;
+}
+
+/* Keep code monospace */
+.markdown-reading-view code, .markdown-reading-view pre,
+.cm-editor code, .cm-editor pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
+}
+

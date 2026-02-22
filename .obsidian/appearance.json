@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Typewriter",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "mode-font-diff-mac-ubuntu",
+    "spacing-relax"
+  ]
+}
