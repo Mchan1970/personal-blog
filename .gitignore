@@ -6,3 +6,8 @@ public/
 
 # OS / editor
 .DS_Store
+
+# Obsidian local config
+.obsidian/workspace.json
+.obsidian/community-plugins.json
+.obsidian/plugins/
