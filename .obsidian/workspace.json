@@ -193,6 +193,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "258ae3a77fd7614e",
-  "lastOpenFiles": []
+  "active": "00fb9de8c754cca2",
+  "lastOpenFiles": [
+    "content/templates/post.md",
+    "templates/post.md",
+    "templates",
+    "content/property-rights/2026-justice-architecture.md"
+  ]
 }
