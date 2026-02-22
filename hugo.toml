@@ -2,6 +2,7 @@ baseURL = "https://mchan1970.github.io/personal-blog/"
 languageCode = "zh-cn"
 title = "Voice"
 theme = "PaperMod"
+author = "Chen Yifeng"
 
 [menu]
   [[menu.main]]
