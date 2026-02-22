@@ -1,15 +1,30 @@
 {{ $image := .Page.Resources.GetMatch (.Destination) }}
 {{ if $image }}
-  {{ $resized := $image.Resize "800x" }}
-  <figure>
-    <img src="{{ $resized.RelPermalink }}" alt="{{ .Text }}" />
-    {{ with .Title }}
-      <figcaption>{{ . }}</figcaption>
-    {{ end }}
-  </figure>
+{{ $resized := $image }}
+{{ $class := "image-normal" }}
+
+{{ if in .Text "题图" }}
+{{ $resized = $image.Fill "900x383 Center" }}
+{{ $class = "image-cover" }}
+{{ else if in .Text "正方图" }}
+{{ $resized = $image.Fill "900x900 Center" }}
+{{ $class = "image-square" }}
+{{ else if in .Text "长方图" }}
+{{ $resized = $image.Fill "900x500 Center" }}
+{{ $class = "image-rect" }}
 {{ else }}
-  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+{{ $resized = $image.Resize "900x" }}
+{{ end }}
+
+<figure class="{{ $class }}">
+  <img src="{{ $resized.RelPermalink }}" alt="{{ .Text }}" />
   {{ with .Title }}
-    <figcaption>{{ . }}</figcaption>
+  <figcaption>{{ . }}</figcaption>
   {{ end }}
+</figure>
+{{ else }}
+<img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+{{ with .Title }}
+<figcaption>{{ . }}</figcaption>
+{{ end }}
 {{ end }}
