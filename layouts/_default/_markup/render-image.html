@@ -1,0 +1,15 @@
+{{ $image := .Page.Resources.GetMatch (.Destination) }}
+{{ if $image }}
+  {{ $resized := $image.Resize "800x" }}
+  <figure>
+    <img src="{{ $resized.RelPermalink }}" alt="{{ .Text }}" />
+    {{ with .Title }}
+      <figcaption>{{ . }}</figcaption>
+    {{ end }}
+  </figure>
+{{ else }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" />
+  {{ with .Title }}
+    <figcaption>{{ . }}</figcaption>
+  {{ end }}
+{{ end }}
