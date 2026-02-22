@@ -1,0 +1,18 @@
+baseURL = "https://mchan1970.github.io/personal-blog/"
+languageCode = "zh-cn"
+title = "Voice"
+theme = "PaperMod"
+
+[menu]
+  [[menu.main]]
+    name = "五千年架构师"
+    url = "/5000-architect/"
+    weight = 10
+  [[menu.main]]
+    name = "业主维权"
+    url = "/property-rights/"
+    weight = 20
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
