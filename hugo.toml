@@ -19,3 +19,8 @@ theme = "PaperMod"
 
 [params]
   author = "Chen Yifeng"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      hardWraps = true
