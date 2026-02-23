@@ -19,6 +19,7 @@ theme = "PaperMod"
 
 [params]
   author = "Chen Yifeng"
+  DateFormat = "2006年1月2日"
 
 [markup]
   [markup.goldmark]
