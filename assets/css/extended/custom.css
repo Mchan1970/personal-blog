@@ -22,6 +22,13 @@ h1, h2, h3, h4, h5, h6,
                  system-ui, -apple-system, sans-serif !important;
 }
 
+/* 列表卡片标题截断（单行省略） */
+.post-entry .entry-header h2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* 文章正文：文楷 */
 .post-content,
 .post-content p,
@@ -110,12 +117,30 @@ code, pre, kbd, samp {
     margin-bottom: 0.8em;
 }
 
+.post-content h4 {
+    font-weight: 600;
+    font-size: 1.12em;
+    line-height: 1.55;
+    margin-top: 1.3em;
+    margin-bottom: 0.45em;
+}
+
 /* 4. 列表：实现冒号后的“吸附感” */
 .post-content ul,
 .post-content ol {
-    margin-top: -0.8em;
+    margin-top: 0.05em;
     margin-bottom: 1.5em;
     padding-left: 1.8em;
+}
+
+/* 标题后紧跟列表的间距微调 */
+.post-content h3 + ul,
+.post-content h3 + ol {
+    margin-top: 0.2em !important;
+}
+.post-content h4 + ul,
+.post-content h4 + ol {
+    margin-top: 0.05em !important;
 }
 
 .post-content li {
