@@ -2,6 +2,13 @@
 /* 博客排版优化: 借鉴 Maple 公众号样式主题 */
 /* =========================================================== */
 
+/* 全局字体修复：确保不管是标题还是正文，中文标点符号绝对饱满 */
+body,
+.post-title,
+.post-content {
+    font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+}
+
 /* 1. 标题与 Meta间距 */
 .post-title {
     margin-bottom: 20px;
@@ -9,8 +16,6 @@
 
 /* 2. 基础容器与段落排版 (兼容暗色模式) */
 .post-content {
-    /* 移除硬编码颜色，跟随系统默认 */
-    font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
     line-height: 1.8;
     letter-spacing: 0.02em;
     text-align: justify;
