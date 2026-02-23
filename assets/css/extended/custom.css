@@ -2,13 +2,16 @@
 /* 博客排版优化: 借鉴 Maple 公众号样式主题 */
 /* =========================================================== */
 
-/* 全局字体修复：确保不管是标题还是正文，中文标点符号绝对饱满 */
+/* 全局字体：仅使用 LXGW 文楷屏显 */
+html,
 body,
 .post-title,
-.post-content {
-    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-        "Noto Sans CJK SC", "Source Han Sans SC",
-        system-ui, -apple-system, "Inter", sans-serif;
+.post-content,
+.entry-content,
+.home-info,
+.home-info h1,
+.home-info .entry-content {
+    font-family: "LXGW WenKai Screen", serif !important;
 }
 
 /* 1. 标题与 Meta间距 */
@@ -81,6 +84,16 @@ body,
 
 [data-theme="dark"] .post-content img {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.03);
+}
+
+/* 首页信息块：去卡片化 */
+.home-info {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    min-height: unset !important;
+    margin-bottom: calc(var(--gap) / 2) !important;
+    padding: 0 !important;
 }
 
 /* =========================================================== */
