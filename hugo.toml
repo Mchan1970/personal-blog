@@ -1,5 +1,6 @@
 baseURL = "https://mchan1970.github.io/personal-blog/"
 languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
 title = "Voice"
 theme = "PaperMod"
 
@@ -33,6 +34,7 @@ theme = "PaperMod"
   DateFormat = "2006年1月2日"
   disableSpecial1stPost = true
   mainSections = ["5000-architect", "property-rights"]
+  ShowBreadCrumbs = true
 
   # 开启主页名片模式
   [params.profileMode]
@@ -41,6 +43,7 @@ theme = "PaperMod"
   [params.homeInfoParams]
     Title = "Hi there 👋"
     Content = "Hi, this is Chen Yifeng. I blog to think about interesting things."
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
