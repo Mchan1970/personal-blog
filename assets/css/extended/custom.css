@@ -170,6 +170,54 @@ code, pre, kbd, samp {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.03);
 }
 
+/* 表格优化（适配亮暗模式） */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.post-content thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.post-content td,
+.post-content th {
+    vertical-align: top;
+    border-top: 1px solid rgba(0, 0, 0, 0.18);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.18);
+    padding: 0.5rem 0.75rem;
+}
+
+.post-content tbody tr:nth-of-type(2n + 1) {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.post-content tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+[data-theme="dark"] .post-content thead th {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+[data-theme="dark"] .post-content td,
+[data-theme="dark"] .post-content th {
+    border-top: 1px solid rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+[data-theme="dark"] .post-content tbody tr:nth-of-type(2n + 1) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+[data-theme="dark"] .post-content tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
 /* 首页信息块：去卡片化 */
 .home-info {
     background: transparent !important;
