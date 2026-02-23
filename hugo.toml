@@ -25,3 +25,5 @@ theme = "PaperMod"
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true
+    [markup.goldmark.extensions]
+      typographer = false
