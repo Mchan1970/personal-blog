@@ -34,6 +34,8 @@ theme = "PaperMod"
   DateFormat = "2006年1月2日"
   disableSpecial1stPost = true
   mainSections = ["5000-architect", "property-rights"]
+  ShowReadingTime = true
+  ShowWordCount = true
   ShowBreadCrumbs = true
 
   # 开启主页名片模式
