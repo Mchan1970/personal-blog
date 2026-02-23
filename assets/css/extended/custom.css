@@ -7,8 +7,8 @@ body,
 .post-title,
 .post-content {
     font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-                 "Noto Sans CJK SC", "Source Han Sans SC",
-                 system-ui, -apple-system, "Inter", sans-serif;
+        "Noto Sans CJK SC", "Source Han Sans SC",
+        system-ui, -apple-system, "Inter", sans-serif;
 }
 
 /* 1. 标题与 Meta间距 */
@@ -81,4 +81,56 @@ body,
 
 [data-theme="dark"] .post-content img {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.03);
+}
+
+/* =========================================================== */
+/* 主页排版优化: 极简卡片式布局 (Card-based Layout) */
+/* =========================================================== */
+
+/* 1. 改变整个网页的底层背景色，营造空间感 */
+body {
+    background-color: #f5f6f8;
+}
+
+[data-theme="dark"] body {
+    background-color: #1a1b1e;
+    /* 暗色模式背景 */
+}
+
+/* 为了让阅读页面的内容区保持纯净，文章内页需要有个纯色底板 (可选，视需要开启) */
+/* .main { background-color: var(--theme); } */
+
+/* 2. 重塑主页文章列表项为“悬浮卡片” */
+.post-entry {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 32px;
+    margin-bottom: 24px;
+    border: none;
+    /* 移除可能的边框 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    /* 非常轻微的悬浮阴影 */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* 鼠标悬浮时产生轻微的交互反馈 */
+.post-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+/* 3. 暗色模式下的卡片颜色反转 */
+[data-theme="dark"] .post-entry {
+    background: #242528;
+    /* 比底层暗背景稍微亮一点的深灰，形成层级 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .post-entry:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* 4. 隐藏原有的 PaperMod 默认底部虚线或边距 */
+.post-entry+.post-entry {
+    border-top: none;
 }

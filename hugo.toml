@@ -21,6 +21,21 @@ theme = "PaperMod"
   author = "陈逸峰"
   DateFormat = "2006年1月2日"
 
+  # 开启主页名片模式
+  [params.profileMode]
+    enabled = true
+    title = "Hi there 👋"
+    subtitle = "Hi, this is Chen Yifeng. I blog to think about interesting things."
+    imageUrl = ""
+    imageWidth = 120
+    imageHeight = 120
+    
+    [[params.profileMode.buttons]]
+      name = "五千年架构师"
+      url = "/5000-architect/"
+    [[params.profileMode.buttons]]
+      name = "业主维权"
+      url = "/property-rights/"
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
