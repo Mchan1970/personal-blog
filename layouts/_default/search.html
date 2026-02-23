@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+<header class="page-header">
+    <h1>{{- (printf "%s&nbsp;" .Title ) | htmlUnescape -}}
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+    </h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+        {{- partial "translation_list.html" . -}}
+    </div>
+    {{- end }}
+</header>
+
+<div id="searchbox">
+    <input id="searchInput" autofocus placeholder="{{ .Params.placeholder | default (printf " %s ↵" .Title) }}"
+        aria-label="search" type="search" autocomplete="off" maxlength="64">
+    <ul id="searchResults" aria-label="search results"></ul>
+</div>
+
+<!-- 新增：在搜索页面展示标签 -->
+{{- if not (.Param "hideTags") }}
+{{- $taxonomies := .Site.Taxonomies.tags }}
+{{- if gt (len $taxonomies) 0 }}
+<div style="margin-top: 30px;">
+    <h2>{{ i18n "tags" | default "标签" }}</h2>
+    <ul class="terms-tags"
+        style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px;">
+        {{- range $name, $value := $taxonomies }}
+        {{- $count := .Count }}
+        {{- with site.GetPage (printf "/tags/%s" $name) }}
+        <li>
+            <a href="{{ .Permalink }}"
+                style="background: var(--entry); padding: 5px 12px; border-radius: var(--radius); border: 1px solid var(--border); font-size: 14px; opacity: 0.9;">
+                {{ .Name }} <sup><strong>{{ $count }}</strong></sup>
+            </a>
+        </li>
+        {{- end }}
+        {{- end }}
+    </ul>
+</div>
+{{- end }}
+{{- end }}
+
+<!-- 新增：在搜索页面展示系列 -->
+{{- if not (.Param "hideSeries") }}
+{{- $series := .Site.Taxonomies.series }}
+{{- if gt (len $series) 0 }}
+<div style="margin-top: 30px;">
+    <h2>{{ i18n "series" | default "系列" }}</h2>
+    <ul class="terms-tags"
+        style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px;">
+        {{- range $name, $value := $series }}
+        {{- $count := .Count }}
+        {{- with site.GetPage (printf "/series/%s" $name) }}
+        <li>
+            <a href="{{ .Permalink }}"
+                style="background: var(--entry); padding: 5px 12px; border-radius: var(--radius); border: 1px solid var(--border); font-size: 14px; opacity: 0.9;">
+                {{ .Name }} <sup><strong>{{ $count }}</strong></sup>
+            </a>
+        </li>
+        {{- end }}
+        {{- end }}
+    </ul>
+</div>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}
