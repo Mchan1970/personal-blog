@@ -10,7 +10,7 @@
 /* 2. 基础容器与段落排版 (兼容暗色模式) */
 .post-content {
     /* 移除硬编码颜色，跟随系统默认 */
-    font-family: "Inter", -apple-system, system-ui, sans-serif;
+    font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
     line-height: 1.8;
     letter-spacing: 0.02em;
     text-align: justify;
