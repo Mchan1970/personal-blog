@@ -6,7 +6,9 @@
 body,
 .post-title,
 .post-content {
-    font-family: system-ui, -apple-system, "PingFang SC", "Microsoft YaHei", "Inter", sans-serif;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+                 "Noto Sans CJK SC", "Source Han Sans SC",
+                 system-ui, -apple-system, "Inter", sans-serif;
 }
 
 /* 1. 标题与 Meta间距 */

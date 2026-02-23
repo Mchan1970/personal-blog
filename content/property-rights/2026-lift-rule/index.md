@@ -1,7 +1,7 @@
 ---
 title: 上海新规“照妖镜”：电梯广告的“0收益”到头了
 date: 2026-01-16T09:51:00+08:00
-draft: true
+draft: false
 categories:
   - 业主维权
 tags: []
