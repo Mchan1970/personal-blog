@@ -1,0 +1,60 @@
+{{- if .Page.Store.Get "hasMermaid" -}}
+<script src="{{ "js/mermaid.min.js" | absURL }}"></script>
+<script>
+  (function () {
+    const elSelector = ".mermaid";
+    const elements = document.querySelectorAll(elSelector);
+    if (!elements.length || !window.mermaid) return;
+
+    const getTheme = () => {
+      const themeAttr = document.documentElement.getAttribute("data-theme");
+      if (themeAttr === "dark") return "dark";
+      if (themeAttr === "light") return "neutral";
+      return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "neutral";
+    };
+
+    const saveOriginal = () => {
+      elements.forEach((el) => {
+        if (!el.getAttribute("data-original-code")) {
+          el.setAttribute("data-original-code", el.innerHTML);
+        }
+      });
+    };
+
+    const resetProcessed = () => {
+      elements.forEach((el) => {
+        const original = el.getAttribute("data-original-code");
+        if (original) {
+          el.removeAttribute("data-processed");
+          el.innerHTML = original;
+        }
+      });
+    };
+
+    const render = () => {
+      const theme = getTheme();
+      window.mermaid.initialize({
+        theme,
+        themeVariables: {
+          fontFamily: "LXGW WenKai Screen, serif"
+        }
+      });
+      window.mermaid.init(undefined, elements);
+    };
+
+    saveOriginal();
+    resetProcessed();
+    render();
+
+    const toggle = document.getElementById("theme-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", () => {
+        resetProcessed();
+        render();
+      });
+    }
+  })();
+</script>
+{{- end -}}
