@@ -6,20 +6,25 @@
 html,
 body {
     font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-                 "Noto Sans CJK SC", "Source Han Sans SC",
-                 system-ui, -apple-system, sans-serif !important;
+        "Noto Sans CJK SC", "Source Han Sans SC",
+        system-ui, -apple-system, sans-serif !important;
 }
 
 /* 文章标题与结构标题：黑体 */
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .post-title,
 .home-info h1,
 .entry-header h1,
 .entry-header h2,
 .page-header h1 {
     font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-                 "Noto Sans CJK SC", "Source Han Sans SC",
-                 system-ui, -apple-system, sans-serif !important;
+        "Noto Sans CJK SC", "Source Han Sans SC",
+        system-ui, -apple-system, sans-serif !important;
 }
 
 /* 列表卡片标题截断（单行省略） */
@@ -44,8 +49,8 @@ h1, h2, h3, h4, h5, h6,
 .list .post-content li,
 .list .post-content blockquote {
     font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-                 "Noto Sans CJK SC", "Source Han Sans SC",
-                 system-ui, -apple-system, sans-serif !important;
+        "Noto Sans CJK SC", "Source Han Sans SC",
+        system-ui, -apple-system, sans-serif !important;
 }
 
 /* 导航、标签、按钮、元信息等 UI 文字 */
@@ -65,8 +70,8 @@ nav,
 .post-description,
 .post-description p {
     font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-                 "Noto Sans CJK SC", "Source Han Sans SC",
-                 system-ui, -apple-system, sans-serif !important;
+        "Noto Sans CJK SC", "Source Han Sans SC",
+        system-ui, -apple-system, sans-serif !important;
 }
 
 /* 栏目页标题与简介的间距 */
@@ -93,16 +98,19 @@ nav,
 }
 
 /* 代码字体使用系统等宽字体栈 */
-code, pre, kbd, samp {
+code,
+pre,
+kbd,
+samp {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-                 "Liberation Mono", "Courier New", monospace !important;
+        "Liberation Mono", "Courier New", monospace !important;
 }
 
 /* 3. 标题层级 */
 .post-content h2 {
     font-weight: 700;
     font-size: 1.5em;
-    margin-top: 2.4em;
+    margin-top: 1.6em;
     margin-bottom: 1.2em;
     line-height: 1.45;
     border-left: 6px solid var(--primary);
@@ -134,12 +142,13 @@ code, pre, kbd, samp {
 }
 
 /* 标题后紧跟列表的间距微调 */
-.post-content h3 + ul,
-.post-content h3 + ol {
+.post-content h3+ul,
+.post-content h3+ol {
     margin-top: 0.2em !important;
 }
-.post-content h4 + ul,
-.post-content h4 + ol {
+
+.post-content h4+ul,
+.post-content h4+ol {
     margin-top: 0.05em !important;
 }
 
@@ -163,7 +172,7 @@ code, pre, kbd, samp {
 .post-content img {
     border-radius: 6px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
-    margin: 2.5em auto;
+    margin: 1.7em auto;
 }
 
 [data-theme="dark"] .post-content img {
