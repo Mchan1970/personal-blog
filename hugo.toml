@@ -20,6 +20,7 @@ theme = "PaperMod"
 [params]
   author = "陈逸峰"
   DateFormat = "2006年1月2日"
+  disableSpecial1stPost = true
 
   # 开启主页名片模式
   [params.profileMode]

@@ -101,7 +101,8 @@ body {
 /* .main { background-color: var(--theme); } */
 
 /* 2. 重塑主页文章列表项为“悬浮卡片” */
-.post-entry {
+.post-entry,
+.first-entry {
     background: #ffffff;
     border-radius: 12px;
     padding: 24px 32px;
@@ -114,23 +115,28 @@ body {
 }
 
 /* 鼠标悬浮时产生轻微的交互反馈 */
-.post-entry:hover {
+.post-entry:hover,
+.first-entry:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
 /* 3. 暗色模式下的卡片颜色反转 */
-[data-theme="dark"] .post-entry {
+[data-theme="dark"] .post-entry,
+[data-theme="dark"] .first-entry {
     background: #242528;
     /* 比底层暗背景稍微亮一点的深灰，形成层级 */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-[data-theme="dark"] .post-entry:hover {
+[data-theme="dark"] .post-entry:hover,
+[data-theme="dark"] .first-entry:hover {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
 }
 
 /* 4. 隐藏原有的 PaperMod 默认底部虚线或边距 */
-.post-entry+.post-entry {
+.post-entry+.post-entry,
+.post-entry+.first-entry,
+.first-entry+.post-entry {
     border-top: none;
 }
