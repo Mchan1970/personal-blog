@@ -5,6 +5,10 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 5
+  [[menu.main]]
     name = "五千年架构师"
     url = "/5000-architect/"
     weight = 10
@@ -21,25 +25,21 @@ theme = "PaperMod"
   author = "陈逸峰"
   DateFormat = "2006年1月2日"
   disableSpecial1stPost = true
+  mainSections = ["5000-architect", "property-rights"]
 
   # 开启主页名片模式
   [params.profileMode]
-    enabled = true
-    title = "Hi there 👋"
-    subtitle = "Hi, this is Chen Yifeng. I blog to think about interesting things."
-    imageUrl = ""
-    imageWidth = 120
-    imageHeight = 120
-    
-    [[params.profileMode.buttons]]
-      name = "五千年架构师"
-      url = "/5000-architect/"
-    [[params.profileMode.buttons]]
-      name = "业主维权"
-      url = "/property-rights/"
+    enabled = false
+
+  [params.homeInfoParams]
+    Title = "Hi there 👋"
+    Content = "Hi, this is Chen Yifeng. I blog to think about interesting things."
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true
     [markup.goldmark.extensions]
       typographer = false
+
+[pagination]
+  pagerSize = 8
