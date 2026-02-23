@@ -1,4 +1,73 @@
-/* 增加文章大标题与下方日期作者（Meta信息）之间的间距 */
+/* =========================================================== */
+/* 博客排版优化: 借鉴 Maple 公众号样式主题 */
+/* =========================================================== */
+
+/* 1. 标题与 Meta 间距 */
 .post-title {
     margin-bottom: 20px;
+}
+
+/* 2. 基础容器与段落排版 */
+.post-content {
+    color: #333;
+    font-family: "Inter", -apple-system, system-ui, sans-serif;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.post-content p {
+    margin-top: 0;
+    margin-bottom: 1.2em;
+    line-height: 1.8;
+}
+
+/* 3. 标题层级 */
+.post-content h2 {
+    color: #222;
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-top: 2.4em;
+    margin-bottom: 1.2em;
+    line-height: 1.45;
+    border-left: 6px solid #444;
+    padding-left: 12px;
+}
+
+.post-content h3 {
+    color: #333;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-top: 1.8em;
+    margin-bottom: 0.8em;
+}
+
+/* 4. 列表：实现冒号后的“吸附感” */
+.post-content ul,
+.post-content ol {
+    margin-top: -0.8em;
+    margin-bottom: 1.5em;
+    padding-left: 1.8em;
+}
+
+.post-content li {
+    margin-bottom: 0.4em;
+    line-height: 1.8;
+}
+
+/* 5. 引用块 */
+.post-content blockquote {
+    font-size: 0.95rem;
+    margin: 1.8em 0;
+    padding: 1.2em 1.5em;
+    color: #666;
+    background-color: #f9f9f9;
+    border-left: 4px solid #ddd;
+}
+
+/* 6. 图片美化 */
+.post-content img {
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    margin: 2.5em auto;
 }

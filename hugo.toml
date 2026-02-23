@@ -18,7 +18,7 @@ theme = "PaperMod"
   series = "series"
 
 [params]
-  author = "Chen Yifeng"
+  author = "陈逸峰"
   DateFormat = "2006年1月2日"
 
 [markup]
