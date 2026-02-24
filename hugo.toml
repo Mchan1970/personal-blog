@@ -36,9 +36,9 @@ theme = "PaperMod"
   mainSections = ["5000-architect", "property-rights"]
   ShowReadingTime = true
   ShowWordCount = true
+  ShowBreadCrumbs = true
   [params.fuseOpts]
     keys = ["title"]
-  ShowBreadCrumbs = true
 
   # 开启主页名片模式
   [params.profileMode]
