@@ -1,7 +1,7 @@
 ---
 title: 国家或王朝为何终将走向崩溃
 date: 2026-02-27T09:00:00+08:00
-draft: true
+draft: false
 categories:
   - 逸峰闲话
 tags:
