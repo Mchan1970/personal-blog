@@ -10,6 +10,10 @@ theme = "PaperMod"
     url = "/"
     weight = 5
   [[menu.main]]
+    name = "逸峰闲话"
+    url = "/yifeng-talks/"
+    weight = 8
+  [[menu.main]]
     name = "五千年架构师"
     url = "/5000-architect/"
     weight = 10
