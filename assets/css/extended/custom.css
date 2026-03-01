@@ -168,6 +168,75 @@ samp {
     border-left: 4px solid var(--border);
 }
 
+/* Obsidian Callout - 极简微卡片模式 */
+.post-content .callout {
+    margin: 1.6em 0;
+    padding: 1em 1.2em;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--entry);
+}
+
+.post-content .callout-title {
+    font-weight: 700;
+    margin-bottom: 0.6em;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    color: var(--primary);
+    /* 标题文字使用主题主色（亮色模式深灰/暗色模式亮白） */
+}
+
+.post-content .callout-content> :first-child {
+    margin-top: 0;
+}
+
+.post-content .callout-content> :last-child {
+    margin-bottom: 0;
+}
+
+/* 统一图标颜色为主题主色 */
+.post-content .callout-title::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-color: var(--primary);
+    -webkit-mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+/* SVG icons (Lucide-style) via mask */
+.post-content .callout-important .callout-title::before {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><path d='M10.29 3.86a2 2 0 0 1 3.42 0l7.41 12.83A2 2 0 0 1 19.41 20H4.59a2 2 0 0 1-1.71-3.31l7.41-12.83z'/><path d='M12 9v4'/><path d='M12 17h.01'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><path d='M10.29 3.86a2 2 0 0 1 3.42 0l7.41 12.83A2 2 0 0 1 19.41 20H4.59a2 2 0 0 1-1.71-3.31l7.41-12.83z'/><path d='M12 9v4'/><path d='M12 17h.01'/></svg>");
+}
+
+.post-content .callout-warning .callout-title::before {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='M12 8v4'/><path d='M12 16h.01'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='M12 8v4'/><path d='M12 16h.01'/></svg>");
+}
+
+.post-content .callout-note .callout-title::before,
+.post-content .callout-info .callout-title::before {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='M12 16v-4'/><path d='M12 8h.01'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='M12 16v-4'/><path d='M12 8h.01'/></svg>");
+}
+
+.post-content .callout-tip .callout-title::before {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><path d='M9 18h6'/><path d='M10 22h4'/><path d='M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><path d='M9 18h6'/><path d='M10 22h4'/><path d='M12 2a7 7 0 0 0-4 12c1 1 2 2 2 4h4c0-2 1-3 2-4a7 7 0 0 0-4-12z'/></svg>");
+}
+
+.post-content .callout-success .callout-title::before {
+    -webkit-mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='m8 12 3 3 5-6'/></svg>");
+    mask-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black'><circle cx='12' cy='12' r='10'/><path d='m8 12 3 3 5-6'/></svg>");
+}
+
 /* 6. 图片美化 (暗色模式下调暗阴影) */
 .post-content img {
     border-radius: 6px;

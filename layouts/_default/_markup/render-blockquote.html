@@ -1,0 +1,73 @@
+{{- /*
+Obsidian Callout Render Hook
+Detects blockquotes starting with [!TYPE] Title and renders a callout box.
+Fallback: normal blockquote.
+*/ -}}
+{{- $html := .Text -}}
+{{- $type := "" -}}
+{{- $title := "" -}}
+{{- $content := "" -}}
+
+{{- $file := .Position.Filename -}}
+{{- $lineNum := .Position.LineNumber -}}
+{{- if and $file (gt $lineNum 0) -}}
+  {{- $raw := readFile $file -}}
+  {{- $lines := split $raw "\n" -}}
+  {{- $start := sub $lineNum 1 -}}
+  {{- if lt $start 0 -}}
+    {{- $start = 0 -}}
+  {{- end -}}
+  {{- $slice := after $start $lines -}}
+  {{- $scratch := newScratch -}}
+  {{- $scratch.Set "collect" false -}}
+  {{- $scratch.Set "done" false -}}
+  {{- $scratch.Set "rawText" "" -}}
+  {{- range $i, $line := $slice -}}
+    {{- if not ($scratch.Get "done") -}}
+      {{- if and (not ($scratch.Get "collect")) (hasPrefix $line ">") -}}
+        {{- $scratch.Set "collect" true -}}
+        {{- $scratch.Set "rawText" $line -}}
+      {{- else if and ($scratch.Get "collect") (hasPrefix $line ">") -}}
+        {{- $scratch.Set "rawText" (printf "%s\n%s" ($scratch.Get "rawText") $line) -}}
+      {{- else if $scratch.Get "collect" -}}
+        {{- $scratch.Set "done" true -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $rawText := trim ($scratch.Get "rawText") "\n" -}}
+  {{- $rawLines := split $rawText "\n" -}}
+  {{- if gt (len $rawLines) 0 -}}
+    {{- $rawFirst := index $rawLines 0 -}}
+    {{- $tmp := replaceRE "^>\\s?" "" $rawFirst -}}
+    {{- $first := trim $tmp " " -}}
+    {{- $m := findRESubmatch `^\[!([A-Za-z]+)\]\s*(.*)$` $first -}}
+    {{- if gt (len $m) 0 -}}
+      {{- $match := index $m 0 -}}
+      {{- $type = lower (index $match 1) -}}
+      {{- $title = trim (index $match 2) " " -}}
+      {{- if eq $title "" -}}
+        {{- $title = title $type -}}
+      {{- end -}}
+      {{- $inner := newScratch -}}
+      {{- $inner.Set "text" "" -}}
+      {{- range $i, $line := after 1 $rawLines -}}
+        {{- $clean := replaceRE "^>\\s?" "" $line -}}
+        {{- if eq ($inner.Get "text") "" -}}
+          {{- $inner.Set "text" $clean -}}
+        {{- else -}}
+          {{- $inner.Set "text" (printf "%s\n%s" ($inner.Get "text") $clean) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $content = $inner.Get "text" -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if ne $type "" -}}
+  <section class="callout callout-{{ $type }}">
+    <div class="callout-title">{{ $title }}</div>
+    <div class="callout-content">{{ $content | .Page.RenderString (dict "display" "block") }}</div>
+  </section>
+{{- else -}}
+  <blockquote>{{ $html | safeHTML }}</blockquote>
+{{- end -}}
