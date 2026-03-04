@@ -1,4 +1,19 @@
-{{ $image := .Page.Resources.GetMatch (.Destination) }}
+{{- $dest := .Destination | safeURL -}}
+{{- $image := .Page.Resources.GetMatch $dest -}}
+{{- if not $image -}}
+  {{- $image = .Page.Resources.GetMatch (path.Base $dest) -}}
+{{- end -}}
+{{- if in $dest "Inserted-image-20260302165317.png" -}}
+  {{- warnf "img-dest=%s page=%s resources=%d" $dest .Page.File.Path (len .Page.Resources) -}}
+  {{- range .Page.Resources -}}
+    {{- warnf "img-res: %s" .Name -}}
+  {{- end -}}
+  {{- if not $image -}}
+    {{- warnf "img-match: nil" -}}
+  {{- else -}}
+    {{- warnf "img-match: %T %s" $image $image.Name -}}
+  {{- end -}}
+{{- end -}}
 {{ if $image }}
 {{ $resized := $image }}
 {{ $class := "image-normal" }}
