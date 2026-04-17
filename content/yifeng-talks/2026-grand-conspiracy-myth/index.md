@@ -1,7 +1,7 @@
 ---
 title: 为什么我从不相信“宏大阴谋”
 date: 2026-04-17T00:00:00+08:00
-draft: true
+draft: false
 categories:
   - 逸峰闲话
 tags:
