@@ -3,6 +3,7 @@ title: "关于"
 date: 2026-02-24T09:00:00+08:00
 draft: false
 ---
+
 ![题图](Inserted-image-20260224144343.png)
 ## 欢迎
 您好，我是陈逸峰。
@@ -33,5 +34,3 @@ draft: false
 ## 联系
 - 微信：mchan1970
 - 邮箱：chenyifeng@outlook.com
-
-
