@@ -1,0 +1,120 @@
+{
+  "articles": [
+    {
+      "file": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15248605684420.md",
+      "sha256": "23b9491e2514ce03f277ed64d480654f68d9c3a9eedfdbd463078736cc10b1f4",
+      "title": "学择新西兰（Choose NewZeaLand）Day111",
+      "day_start": 111,
+      "day_end": 111,
+      "body_date": "2018-04-28",
+      "issues": [],
+      "images": [
+        {
+          "ref": "media/15248605684420/momo.jpg",
+          "path": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/media/15248605684420/momo.jpg",
+          "state": "ok"
+        }
+      ],
+      "matches": [],
+      "classification": "新增候选",
+      "before_boundary": false,
+      "proposed_date": "2018-04-28",
+      "date_source": "日记开头日期",
+      "proposed_slug": "2018-newzealand-111"
+    },
+    {
+      "file": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15267961912908.md",
+      "sha256": "5f165f89123968087ee40c75b3b4a00780ff7e8829bfcf6c5a5d9043cf391dda",
+      "title": "学择新西兰（Choose NewZeaLand）Day133-134",
+      "day_start": 133,
+      "day_end": 134,
+      "body_date": "2018-05-20",
+      "issues": [],
+      "images": [],
+      "matches": [
+        {
+          "key": "wp_:4170",
+          "title": "国外教材为什么死贵？",
+          "date": "2018-05-20",
+          "shared_shorter": 0.97,
+          "source_coverage": 0.97,
+          "similarity": 0.961,
+          "hugo_path": null
+        }
+      ],
+      "classification": "疑似已有内容，待比对",
+      "before_boundary": false,
+      "proposed_date": "2018-05-21",
+      "date_source": "日记开头日期",
+      "proposed_slug": "2018-newzealand-133-134"
+    },
+    {
+      "file": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15274053605992.md",
+      "sha256": "05c3865a633bf942dce7eecf12d6b662a077e3f49aa0d7d3ad8b958f96981b96",
+      "title": "学择新西兰（Choose NewZeaLand）Day139-140",
+      "day_start": 139,
+      "day_end": 140,
+      "body_date": "2018-05-26",
+      "issues": [],
+      "images": [],
+      "matches": [
+        {
+          "key": "wp_:5038",
+          "title": "美国对中国的看法已经发生根本性的变化",
+          "date": "2018-05-27",
+          "shared_shorter": 1.0,
+          "source_coverage": 1.0,
+          "similarity": 0.993,
+          "hugo_path": null
+        }
+      ],
+      "classification": "疑似已有内容，待比对",
+      "before_boundary": false,
+      "proposed_date": "2018-05-27",
+      "date_source": "日记开头日期",
+      "proposed_slug": "2018-newzealand-139-140"
+    },
+    {
+      "file": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15347442642214.md",
+      "sha256": "970ead9948df204bafc3640a4a27540f66bf5fd1303c8273022ba036080d9095",
+      "title": "学择新西兰（Choose NewZeaLand）Day210-211",
+      "day_start": 210,
+      "day_end": 211,
+      "body_date": "2018-08-19",
+      "issues": [],
+      "images": [],
+      "matches": [],
+      "classification": "新增候选",
+      "before_boundary": false,
+      "proposed_date": "2018-08-20",
+      "date_source": "日记开头日期",
+      "proposed_slug": "2018-newzealand-210-211"
+    },
+    {
+      "file": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15355974713033.md",
+      "sha256": "3a93c40245d91f51c46478dd1cffa9733a6f6da1938947bd8736b29bf641f825",
+      "title": "学择新西兰（Choose NewZeaLand）Day220-221",
+      "day_start": 220,
+      "day_end": 221,
+      "body_date": "2018-08-29",
+      "issues": [],
+      "images": [
+        {
+          "ref": "media/15355974713033/come.jpg",
+          "path": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/media/15355974713033/come.jpg",
+          "state": "ok"
+        }
+      ],
+      "matches": [],
+      "classification": "新增候选",
+      "before_boundary": false,
+      "proposed_date": "2018-08-30",
+      "date_source": "日记开头日期",
+      "proposed_slug": "2018-newzealand-220-221"
+    }
+  ],
+  "date_policy": "沿用用户确认规则：合篇取日记最后一天",
+  "section": "yifeng-talks",
+  "draft": true,
+  "tags": []
+}

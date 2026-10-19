@@ -1,5 +1,5 @@
 ---
-title: "英语地道或不地道就在一词之间"
+title: "从“I'm married”辨析：中式直译与地道英语思维的碰撞"
 date: "2018-09-11T13:17:42+08:00"
 draft: false
 categories: ["逸峰闲话"]

@@ -1,5 +1,5 @@
 ---
-title: "Happy Halloween"
+title: "全班第一收官十月求学：盘丝洞里的万圣节狂欢与异国温情"
 date: "2018-11-02T13:46:44+08:00"
 draft: false
 categories: ["逸峰闲话"]

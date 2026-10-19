@@ -1,0 +1,76 @@
+{
+  "work": "/private/tmp/mweb-5-import-wxum0m5o",
+  "rows": [
+    {
+      "title": "学择新西兰（Choose NewZeaLand）DAY 111",
+      "source": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15248605684420.md",
+      "source_sha256": "23b9491e2514ce03f277ed64d480654f68d9c3a9eedfdbd463078736cc10b1f4",
+      "slug": "2018-newzealand-111",
+      "date": "2018-04-28",
+      "target": "/Users/chenyifeng/Obsidian/personal-blog/content/yifeng-talks/2018-newzealand-111",
+      "assets": {
+        "images/image-f7e0715462d05445.jpg": "f7e0715462d05445520d53777c861e731995f92ced1b68abe07197799ad8f575"
+      },
+      "files": {
+        "index.md": "0d52ae036655e1d06e16e1edc9a0164b373760801d218f982f3bdc01fcab99a6",
+        "images/image-f7e0715462d05445.jpg": "f7e0715462d05445520d53777c861e731995f92ced1b68abe07197799ad8f575"
+      }
+    },
+    {
+      "title": "学择新西兰（Choose NewZeaLand）DAY 133-134",
+      "source": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15267961912908.md",
+      "source_sha256": "5f165f89123968087ee40c75b3b4a00780ff7e8829bfcf6c5a5d9043cf391dda",
+      "slug": "2018-newzealand-133-134",
+      "date": "2018-05-21",
+      "target": "/Users/chenyifeng/Obsidian/personal-blog/content/yifeng-talks/2018-newzealand-133-134",
+      "assets": {},
+      "files": {
+        "index.md": "8d76c160b2fde8eb8013b615b54883504abf23cd2cd952c6dfa9db00340c3bc2"
+      }
+    },
+    {
+      "title": "学择新西兰（Choose NewZeaLand）DAY 139-140",
+      "source": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15274053605992.md",
+      "source_sha256": "05c3865a633bf942dce7eecf12d6b662a077e3f49aa0d7d3ad8b958f96981b96",
+      "slug": "2018-newzealand-139-140",
+      "date": "2018-05-27",
+      "target": "/Users/chenyifeng/Obsidian/personal-blog/content/yifeng-talks/2018-newzealand-139-140",
+      "assets": {},
+      "files": {
+        "index.md": "27a4a9bfd51fccdef86460b4d70ddcfd71ebbf0ab0b5263014a52022dfcfb15b"
+      }
+    },
+    {
+      "title": "学择新西兰（Choose NewZeaLand）DAY 210-211",
+      "source": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15347442642214.md",
+      "source_sha256": "970ead9948df204bafc3640a4a27540f66bf5fd1303c8273022ba036080d9095",
+      "slug": "2018-newzealand-210-211",
+      "date": "2018-08-20",
+      "target": "/Users/chenyifeng/Obsidian/personal-blog/content/yifeng-talks/2018-newzealand-210-211",
+      "assets": {},
+      "files": {
+        "index.md": "d26b9dbe2c40667fa11998961c0b987c48021c83a5a480c1c3aef70909094e7e"
+      }
+    },
+    {
+      "title": "学择新西兰（Choose NewZeaLand）DAY 220-221",
+      "source": "/Users/chenyifeng/Library/Mobile Documents/iCloud~com~coderforart~iOS~MWeb/Documents/mweb_documents_library/docs/15355974713033.md",
+      "source_sha256": "3a93c40245d91f51c46478dd1cffa9733a6f6da1938947bd8736b29bf641f825",
+      "slug": "2018-newzealand-220-221",
+      "date": "2018-08-30",
+      "target": "/Users/chenyifeng/Obsidian/personal-blog/content/yifeng-talks/2018-newzealand-220-221",
+      "assets": {
+        "images/image-de5d0f98ea192de2.jpg": "de5d0f98ea192de2701c70d7407cebded003569e9d9c71ec1428cddf750d8d00"
+      },
+      "files": {
+        "index.md": "470d2d00586f85a672e2e8beaa19ef4b78cfeade4d54d5822aa1b68bbfe2173c",
+        "images/image-de5d0f98ea192de2.jpg": "de5d0f98ea192de2701c70d7407cebded003569e9d9c71ec1428cddf750d8d00"
+      }
+    }
+  ],
+  "count": 5,
+  "images": 2,
+  "draft": true,
+  "state": "committed",
+  "imported_at": "2026-10-20T01:14:59.504813+08:00"
+}

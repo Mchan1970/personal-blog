@@ -196,25 +196,33 @@ def cmd_batch(args):
         print(f"    摘要: {p['excerpt']}")
 
 
-def update_file_tags(filepath: Path, new_tags: list[str]):
+def update_file_frontmatter(filepath: Path, new_tags: list[str] = None, new_title: str = None):
     text = filepath.read_text(encoding="utf-8")
     m = re.match(r"^(---\r?\n)(.*?)(\r?\n---\r?\n.*)$", text, re.S)
     if not m:
         raise ValueError(f"No valid YAML front matter found in {filepath}")
     prefix, fm_text, suffix = m.group(1), m.group(2), m.group(3)
+    new_fm = fm_text
 
-    # Check if file uses inline array `tags: [...]` or YAML block list
-    inline_tag_str = "tags: [" + ", ".join(f'"{t}"' for t in new_tags) + "]"
-    block_tag_str = "tags:\n" + "\n".join(f"  - {t}" for t in new_tags) + "\n"
+    if new_title:
+        safe_title = json.dumps(new_title, ensure_ascii=False)
+        if re.search(r'^title:\s*.*$', new_fm, re.M):
+            new_fm = re.sub(r'^title:\s*.*$', f'title: {safe_title}', new_fm, count=1, flags=re.M)
+        else:
+            new_fm = f'title: {safe_title}\n' + new_fm
 
-    if re.search(r'^tags:\s*\[.*?\]\s*$', fm_text, re.M):
-        new_fm = re.sub(r'^tags:\s*\[.*?\]\s*$', inline_tag_str, fm_text, count=1, flags=re.M)
-    elif re.search(r'^tags:\s*\r?\n((?:[ \t]*-[ \t]*.*\r?\n?)+)', fm_text, re.M):
-        new_fm = re.sub(r'^tags:\s*\r?\n((?:[ \t]*-[ \t]*.*\r?\n?)+)', block_tag_str, fm_text, count=1, flags=re.M)
-    elif re.search(r'^tags:\s*$', fm_text, re.M):
-        new_fm = re.sub(r'^tags:\s*$', inline_tag_str, fm_text, count=1, flags=re.M)
-    else:
-        new_fm = fm_text + "\n" + inline_tag_str
+    if new_tags is not None:
+        inline_tag_str = "tags: [" + ", ".join(f'"{t}"' for t in new_tags) + "]"
+        block_tag_str = "tags:\n" + "\n".join(f"  - {t}" for t in new_tags) + "\n"
+
+        if re.search(r'^tags:\s*\[.*?\]\s*$', new_fm, re.M):
+            new_fm = re.sub(r'^tags:\s*\[.*?\]\s*$', inline_tag_str, new_fm, count=1, flags=re.M)
+        elif re.search(r'^tags:\s*\r?\n((?:[ \t]*-[ \t]*.*\r?\n?)+)', new_fm, re.M):
+            new_fm = re.sub(r'^tags:\s*\r?\n((?:[ \t]*-[ \t]*.*\r?\n?)+)', block_tag_str, new_fm, count=1, flags=re.M)
+        elif re.search(r'^tags:\s*$', new_fm, re.M):
+            new_fm = re.sub(r'^tags:\s*$', inline_tag_str, new_fm, count=1, flags=re.M)
+        else:
+            new_fm = new_fm + "\n" + inline_tag_str
 
     filepath.write_text(prefix + new_fm + suffix, encoding="utf-8")
 
@@ -225,21 +233,23 @@ def cmd_apply(args):
     updated = 0
     for item in items:
         rel_path = item["path"]
-        raw_tags = item["tags"]
-        # Normalize via aliases and deduplicate while preserving order
+        raw_tags = item.get("tags")
+        new_title = item.get("title")
         final_tags = []
-        for t in raw_tags:
-            canon = wl["aliases"].get(t, t)
-            if canon not in final_tags:
-                final_tags.append(canon)
+        if raw_tags is not None:
+            for t in raw_tags:
+                canon = wl["aliases"].get(t, t)
+                if canon not in final_tags:
+                    final_tags.append(canon)
         target = ROOT_DIR / rel_path
         if not target.exists():
             print(f"[ERROR] 文件不存在: {rel_path}", file=sys.stderr)
             continue
-        update_file_tags(target, final_tags)
+        update_file_frontmatter(target, new_tags=final_tags if raw_tags is not None else None, new_title=new_title)
         updated += 1
-        print(f"[OK] {rel_path} -> {json.dumps(final_tags, ensure_ascii=False)}")
-    print(f"\n共成功更新 {updated} 篇文章的标签。")
+        title_str = f' [title -> {new_title}]' if new_title else ''
+        print(f"[OK] {rel_path}{title_str} -> {json.dumps(final_tags, ensure_ascii=False)}")
+    print(f"\n共成功更新 {updated} 篇文章。")
 
 
 def main():
