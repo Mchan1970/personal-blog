@@ -3,7 +3,7 @@ title: "新消法修订之我见"
 date: "2016-08-14T12:15:07+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["消法", "消费者", "企业"]
+tags: ["法治", "制度设计", "商业模式"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3629

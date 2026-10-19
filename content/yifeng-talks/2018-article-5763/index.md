@@ -3,7 +3,7 @@ title: "在新西兰读高中是一种什么样的体验（上）"
 date: "2018-10-01T09:44:15+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["新西兰", "高中", "教育"]
+tags: ["教育", "跨文化适应", "家庭教育"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5763

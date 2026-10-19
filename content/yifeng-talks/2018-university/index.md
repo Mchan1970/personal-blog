@@ -3,7 +3,7 @@ title: "在新西兰读大学是什么样的体验"
 date: "2018-09-29T07:31:53+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["大学", "专业", "新西兰", "留学经历"]
+tags: ["教育", "跨文化适应", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5751

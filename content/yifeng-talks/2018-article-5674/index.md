@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - NZQA
-  - 新西兰
   - 教育
+  - 跨文化适应
+  - 企业管理
+  - 组织变革
 series: []
 wordpress_source: wp_
 wordpress_id: 5674

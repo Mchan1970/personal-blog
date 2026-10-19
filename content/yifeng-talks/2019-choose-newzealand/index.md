@@ -3,7 +3,7 @@ title: "学择新西兰（Choose NewZeaLand）【告别篇4】"
 date: "2019-01-01T13:27:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["华人", "学择新西兰", "教堂"]
+tags: ["跨文化适应", "商业模式", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5998

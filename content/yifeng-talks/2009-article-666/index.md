@@ -3,7 +3,7 @@ title: "别人用“绿坝”，我买单"
 date: "2009-06-10T21:26:00+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["绿坝", "工信部", "软件"]
+tags: ["社会观察", "制度设计", "法治", "家庭教育"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 666

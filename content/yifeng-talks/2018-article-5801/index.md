@@ -3,7 +3,7 @@ title: "华人移民遭遇\"种族歧视\"是自己作出来的结果"
 date: "2018-10-07T04:19:06+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["移民", "中国", "美国", "新西兰"]
+tags: ["跨文化适应", "社会观察", "伦理讨论", "观念史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5801

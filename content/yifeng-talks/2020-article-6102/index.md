@@ -3,7 +3,7 @@ title: "能做“996”是一种巨大的福气？"
 date: "2020-02-05T16:28:00+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["工作", "员工", "企业管理"]
+tags: ["企业管理", "职场生态", "组织变革", "制度设计"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6102

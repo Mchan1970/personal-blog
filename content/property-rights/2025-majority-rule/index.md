@@ -7,8 +7,8 @@ categories:
 tags:
   - 多数决
   - 业主大会
-  - 司法救济
-  - 程序正当
+  - 依法维权
+  - 程序正义
 series: []
 ---
 ![题图](Inserted-image-20260224163554.png)

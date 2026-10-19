@@ -3,7 +3,7 @@ title: "创意不难 行动不易"
 date: "2018-09-13T13:45:58+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["教育", "雅思", "咖啡"]
+tags: ["教育", "跨文化适应", "管理实践", "创业"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5679

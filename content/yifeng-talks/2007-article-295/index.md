@@ -3,7 +3,7 @@ title: "当炒股成为全民运动"
 date: "2007-05-27T01:24:11+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["全民运动", "股市", "股票"]
+tags: ["社会观察", "常识与逻辑", "历史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 295

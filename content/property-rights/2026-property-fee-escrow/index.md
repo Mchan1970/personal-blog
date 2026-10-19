@@ -6,9 +6,9 @@ categories:
   - 业主维权
 tags:
   - 物业费
-  - 物业服务
+  - 物业治理
   - 合同治理
-  - 小区治理
+  - 社区治理
 series: []
 ---
 ![题图](Inserted-image-20260318132559.png)

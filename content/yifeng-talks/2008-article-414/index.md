@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 学生
-  - 刘翔
-  - 老师
+  - 伦理讨论
+  - 职场生态
+  - 教育
+  - 常识与逻辑
 series: []
 wordpress_source: wp_
 wordpress_id: 414

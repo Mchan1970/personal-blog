@@ -7,7 +7,6 @@ categories:
 tags:
   - 历史
   - 国家能力
-  - 结构性压力
   - 复杂系统
 series: []
 ---

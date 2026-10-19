@@ -3,7 +3,7 @@ title: "学择新西兰（Choose NewZeaLand）【告别篇5】"
 date: "2019-01-12T12:38:02+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学择新西兰", "机场", "失物招领"]
+tags: ["跨文化适应", "合同治理", "制度设计", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6000

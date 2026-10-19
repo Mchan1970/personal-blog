@@ -3,7 +3,7 @@ title: "留学生出现抑郁情绪是常见现象"
 date: "2018-10-13T09:01:06+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["留学生", "学择新西兰", "情绪"]
+tags: ["教育", "家庭教育", "跨文化适应"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5810

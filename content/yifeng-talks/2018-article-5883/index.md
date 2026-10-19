@@ -3,7 +3,7 @@ title: "大麻合法化不等于不受管控"
 date: "2018-10-27T07:05:37+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["大麻", "加拿大", "学择新西兰"]
+tags: ["制度设计", "法治", "媒体辨伪", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5883

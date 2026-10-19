@@ -3,7 +3,7 @@ title: "重视一分钱股份的精神意义——初创企业的股权结构设
 date: "2017-02-25T15:02:04+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["创业", "企业管理", "股权"]
+tags: ["创业", "企业管理", "制度设计", "组织变革"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3686

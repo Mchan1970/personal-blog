@@ -3,7 +3,7 @@ title: "一分为二"
 date: "2018-11-06T11:39:53+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["纳粹", "民主", "基辛格"]
+tags: ["常识与逻辑", "观念史", "历史", "史料辨伪"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5913

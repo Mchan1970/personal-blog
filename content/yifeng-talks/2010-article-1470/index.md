@@ -3,7 +3,7 @@ title: "销售就是概率学和风水说"
 date: "2010-01-22T20:31:09+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["客户", "邮局", "销售", "风水", "概率"]
+tags: ["商业模式", "管理实践", "创业"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 1470

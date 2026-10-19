@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 权利
-  - 工商登记
-  - 窗口服务
+  - 法治
+  - 程序正义
+  - 制度设计
+  - 社会观察
 series: []
 wordpress_source: wp_
 wordpress_id: 3605

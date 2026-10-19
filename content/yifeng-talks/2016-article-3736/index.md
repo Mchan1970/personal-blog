@@ -3,7 +3,7 @@ title: "商家遇到职业打假人后的应对策略探讨"
 date: "2016-08-27T11:02:59+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["纠纷", "消费者", "商家"]
+tags: ["法治", "程序合规", "商业模式", "创业"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3736

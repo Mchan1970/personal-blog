@@ -3,7 +3,7 @@ title: "江湖还在，金庸已逝"
 date: "2018-10-31T11:07:42+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["江湖", "武侠", "学择新西兰"]
+tags: ["历史", "观念史", "教育"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5902

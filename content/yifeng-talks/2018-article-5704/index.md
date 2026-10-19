@@ -3,7 +3,7 @@ title: "谈“理”的时候，不要把“情”搬出来说事"
 date: "2018-09-19T11:00:53+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["酒店", "新西兰", "情理"]
+tags: ["常识与逻辑", "法治", "跨文化适应", "媒体辨伪"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5704

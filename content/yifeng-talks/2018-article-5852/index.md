@@ -3,7 +3,7 @@ title: "杂记"
 date: "2018-10-17T11:04:04+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["奥克兰", "学择新西兰", "教育"]
+tags: ["跨文化适应", "教育", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5852

@@ -5,9 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 行人
-  - 机动车
-  - 交通法
+  - 法治
+  - 制度设计
+  - 社会观察
 series: []
 wordpress_source: wp_
 wordpress_id: 329

@@ -3,7 +3,7 @@ title: "大学生是否应该创业"
 date: "2016-08-06T13:43:37+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["创业", "合伙人", "大学生"]
+tags: ["创业", "教育", "职场生态", "企业管理"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3614

@@ -3,7 +3,7 @@ title: "中国居，大不易"
 date: "2018-09-15T05:51:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["成功", "马云", "新西兰"]
+tags: ["社会观察", "常识与逻辑", "媒体辨伪"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5681

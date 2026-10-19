@@ -3,7 +3,7 @@ title: "说话的技术"
 date: "2008-11-04T23:55:14+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["说话", "人际关系", "听话"]
+tags: ["社会观察", "伦理讨论", "管理实践"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 449

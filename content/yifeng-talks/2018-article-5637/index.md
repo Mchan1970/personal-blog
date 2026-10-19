@@ -3,7 +3,7 @@ title: "滴滴顺风车就是滴滴拼黑车"
 date: "2018-08-26T04:29:06+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["顺风", "滴滴", "新西兰"]
+tags: ["产品逻辑", "商业模式", "安全工程", "跨文化适应"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5637

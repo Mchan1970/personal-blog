@@ -3,7 +3,7 @@ title: "Happy Halloween"
 date: "2018-11-02T13:46:44+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["Halloween", "万圣节", "学择新西兰"]
+tags: ["跨文化适应", "教育", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5909

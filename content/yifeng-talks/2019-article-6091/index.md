@@ -3,7 +3,7 @@ title: "活久见：睁眼说瞎话"
 date: "2019-12-29T20:02:26+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["企业管理", "员工", "职责"]
+tags: ["企业管理", "职场生态", "管理实践"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6091

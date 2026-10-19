@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
+  - 史料辨伪
+  - 媒体辨伪
+  - 常识与逻辑
   - 国家能力
-  - ChatGPT
-  - 美国
 series: []
 wordpress_source: wp_
 wordpress_id: 6371

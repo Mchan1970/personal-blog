@@ -3,7 +3,7 @@ title: "还是在这里“显摆”一下吧"
 date: "2005-10-01T10:24:54+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["榕树下", "管理", "企业"]
+tags: ["企业管理", "组织变革", "管理实践", "历史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 114

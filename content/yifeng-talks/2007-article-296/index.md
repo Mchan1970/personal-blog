@@ -3,7 +3,7 @@ title: "《英雄年代》狂想曲"
 date: "2007-05-31T09:56:26+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["网游", "武侠", "玩家"]
+tags: ["产品逻辑", "商业模式", "企业管理"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 296

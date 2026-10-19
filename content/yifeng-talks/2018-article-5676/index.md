@@ -3,7 +3,7 @@ title: "英语地道或不地道就在一词之间"
 date: "2018-09-11T13:17:42+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["married", "地道", "英语", "新西兰"]
+tags: ["教育", "跨文化适应", "观念史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5676

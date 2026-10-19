@@ -7,7 +7,6 @@ categories:
 tags:
   - 业主参与
   - 社区治理
-  - 集体行动
   - 共同治理
 series: []
 ---

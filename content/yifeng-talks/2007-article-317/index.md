@@ -3,7 +3,7 @@ title: "80后，未来能靠你们吗？"
 date: "2007-08-06T14:40:50+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["80 后", "面试", "人事"]
+tags: ["职场生态", "合同治理", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 317

@@ -3,7 +3,7 @@ title: "美国民主南橘北枳"
 date: "2022-12-30T09:36:50+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["美国", "民主", "公民文化"]
+tags: ["观念史", "制度设计", "历史", "复杂系统"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6337

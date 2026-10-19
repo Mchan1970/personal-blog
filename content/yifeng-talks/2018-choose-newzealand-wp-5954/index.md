@@ -3,7 +3,7 @@ title: "学择新西兰（Choose NewZeaLand）【告别篇2】"
 date: "2018-12-15T18:57:53+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["奥克兰", "NewZeaLand", "学择新西兰"]
+tags: ["跨文化适应", "历史", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5954

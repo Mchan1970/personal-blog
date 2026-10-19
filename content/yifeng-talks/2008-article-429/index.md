@@ -5,9 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 通用网址
-  - 无线
-  - 互联网
+  - 商业模式
+  - 常识与逻辑
+  - 技术史
 series: []
 wordpress_source: wp_
 wordpress_id: 429

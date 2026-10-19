@@ -3,7 +3,7 @@ title: "党同伐异，人性之恶"
 date: "2018-10-15T12:16:37+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["党同伐异", "人性", "新西兰"]
+tags: ["制度设计", "监督权", "分权制衡", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5850

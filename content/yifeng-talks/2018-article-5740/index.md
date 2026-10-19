@@ -3,7 +3,7 @@ title: "钱学森之问，问了白问"
 date: "2018-09-25T11:19:22+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["钱学森", "新知", "思维", "新西兰"]
+tags: ["教育", "制度设计", "观念史", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5740

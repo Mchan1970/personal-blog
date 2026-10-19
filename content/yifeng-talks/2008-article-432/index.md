@@ -3,7 +3,7 @@ title: "盗版就是全民的嗜糖症"
 date: "2008-08-28T22:30:37+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["嗜糖", "财务软件", "全民"]
+tags: ["技术史", "商业模式", "法治", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 432

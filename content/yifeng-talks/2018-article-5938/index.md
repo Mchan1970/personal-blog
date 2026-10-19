@@ -3,7 +3,7 @@ title: "我“毕业”啦！"
 date: "2018-11-10T03:22:54+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学择新西兰", "劳工", "毕业"]
+tags: ["跨文化适应", "职场生态", "观念史", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5938

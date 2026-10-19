@@ -7,8 +7,8 @@ categories:
 tags:
   - 公共收益
   - 物业治理
-  - 透明度
-  - 基层治理
+  - 监督权
+  - 社区治理
 series: []
 ---
 ![题图](Inserted-image-20260224165658.png)

@@ -3,7 +3,7 @@ title: "澳洲华人男子放弃PR回国当“一等公民”"
 date: "2018-10-25T09:41:10+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["医院", "公民", "澳洲", "医生", "学择新西兰"]
+tags: ["媒体辨伪", "跨文化适应", "制度设计", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5881

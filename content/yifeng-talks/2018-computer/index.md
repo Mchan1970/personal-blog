@@ -3,7 +3,7 @@ title: "电脑老军医宝刀不老"
 date: "2018-09-27T12:21:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["新西兰", "电脑", "内存条"]
+tags: ["教育", "跨文化适应", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5742

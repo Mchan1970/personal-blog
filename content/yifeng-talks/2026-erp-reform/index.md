@@ -8,7 +8,6 @@ tags:
   - 企业管理
   - ERP
   - 组织变革
-  - 管理体系
 series: []
 ---
 ![题图](Inserted-image-20260304095440.png)

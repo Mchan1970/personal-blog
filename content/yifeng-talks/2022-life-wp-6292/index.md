@@ -3,7 +3,7 @@ title: "生命有价还是无价？"
 date: "2022-11-30T11:36:09+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["生命", "医生", "职责"]
+tags: ["伦理讨论", "法治", "常识与逻辑", "制度设计"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6292

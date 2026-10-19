@@ -3,7 +3,7 @@ title: "缺乏契约精神的中国人"
 date: "2013-06-01T09:24:26+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["上网", "手机", "契约精神"]
+tags: ["合同治理", "商业模式", "常识与逻辑", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 1689

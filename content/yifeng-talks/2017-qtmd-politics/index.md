@@ -3,7 +3,7 @@ title: "「我不想逃票，所以我可以拿石头打他。QTMD政治正确�
 date: "2017-01-31T14:59:55+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["圣母", "耶稣", "政治正确"]
+tags: ["伦理讨论", "常识与逻辑", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3673

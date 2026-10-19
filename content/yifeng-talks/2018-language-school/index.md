@@ -3,7 +3,7 @@ title: "给语言学校的若干建议"
 date: "2018-10-29T12:06:53+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学生", "校园生活", "学择新西兰"]
+tags: ["教育", "产品逻辑", "管理实践", "跨文化适应"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5897

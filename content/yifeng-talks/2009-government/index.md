@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 政府
-  - 上网
-  - 人民
+  - 数字化
+  - 制度设计
+  - 组织变革
+  - 社会观察
 series: []
 wordpress_source: wp_
 wordpress_id: 662

@@ -3,7 +3,7 @@ title: "新西兰只有远方，没有诗"
 date: "2018-10-21T05:03:16+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学择新西兰", "教育", "学生"]
+tags: ["教育", "跨文化适应", "家庭教育"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5863

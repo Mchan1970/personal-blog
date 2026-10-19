@@ -3,7 +3,7 @@ title: "有一种力量叫做感动"
 date: "2007-01-28T08:14:30+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["感动", "赛车", "英雄"]
+tags: ["伦理讨论", "媒体辨伪", "家庭教育"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 270

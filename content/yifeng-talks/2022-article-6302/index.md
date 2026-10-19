@@ -3,7 +3,7 @@ title: "用常识说话"
 date: "2022-12-19T10:06:38+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["常识", "真理", "波普尔"]
+tags: ["常识与逻辑", "媒体辨伪", "社会观察", "观念史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6302

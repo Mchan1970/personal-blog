@@ -3,7 +3,7 @@ title: "喝一口水就被判死刑，再搭上两条政府官员的性命"
 date: "2018-10-19T12:35:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["Noreen", "巴基斯坦", "基督徒"]
+tags: ["法治", "伦理讨论", "观念史", "史料辨伪"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5854

@@ -3,7 +3,7 @@ title: "东西方教育应取长补短，实际是个伪命题"
 date: "2018-10-23T13:54:11+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["口诀", "教育", "乘法", "学择新西兰"]
+tags: ["教育", "观念史", "制度设计", "历史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5879

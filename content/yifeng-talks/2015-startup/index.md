@@ -6,8 +6,8 @@ categories:
   - 逸峰闲话
 tags:
   - 创业
-  - 自信
-  - 目标
+  - 商业模式
+  - 管理实践
 series: []
 wordpress_source: wp_
 wordpress_id: 3019

@@ -3,7 +3,7 @@ title: "成都这地方"
 date: "2007-01-21T11:21:30+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["成都", "ALEX", "黑车"]
+tags: ["社会观察", "商业模式", "观念史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 267

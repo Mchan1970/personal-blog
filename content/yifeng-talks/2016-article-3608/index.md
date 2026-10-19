@@ -3,7 +3,7 @@ title: "变态的高考日，变态的家长"
 date: "2016-08-03T20:12:08+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["家长", "高考", "教育"]
+tags: ["教育", "家庭教育", "社会观察", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3608

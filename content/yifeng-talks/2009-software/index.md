@@ -3,7 +3,7 @@ title: "360杀毒软件终于现身了"
 date: "2009-10-21T22:19:00+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["免费", "杀毒软件", "微软"]
+tags: ["商业模式", "产品逻辑", "技术史", "企业管理"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 1406

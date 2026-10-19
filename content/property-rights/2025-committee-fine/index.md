@@ -7,8 +7,8 @@ categories:
 tags:
   - 业委会
   - 行政处罚
-  - 追责机制
   - 共同治理
+  - 依法维权
 series: []
 ---
 ![题图](Inserted-image-20260223221637.png)

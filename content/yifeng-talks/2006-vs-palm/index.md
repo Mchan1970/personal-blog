@@ -5,9 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - PALM
-  - 商务通
-  - 胖友
+  - 产品逻辑
+  - 商业模式
+  - 技术史
 series: []
 wordpress_source: wp_
 wordpress_id: 197

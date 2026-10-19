@@ -5,9 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 苛捐
-  - 人民
-  - 发文
+  - 社会观察
+  - 制度设计
+  - 伦理讨论
 series: []
 wordpress_source: wp_
 wordpress_id: 412

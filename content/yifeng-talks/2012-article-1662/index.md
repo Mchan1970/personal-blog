@@ -3,7 +3,7 @@ title: "心如明镜台——学位后授课感言"
 date: "2012-03-17T20:50:27+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["教育", "学分", "大学"]
+tags: ["教育", "家庭教育", "职场生态"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 1662

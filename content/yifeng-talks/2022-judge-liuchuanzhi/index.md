@@ -5,10 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 企业史
-  - 组织决策
-  - 历史复盘
-  - 管理哲学
+  - 企业管理
+  - 历史
+  - 技术史
+  - 常识与逻辑
 series: []
 ---
 ![题图](Inserted-image-20260301171042.png)

@@ -5,9 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 生活
+  - 伦理讨论
+  - 观念史
   - 法治
-  - 良善
 series: []
 wordpress_source: wp_
 wordpress_id: 6179

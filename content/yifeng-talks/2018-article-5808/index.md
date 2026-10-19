@@ -3,7 +3,7 @@ title: "留学不是拿钱砸"
 date: "2018-10-11T11:16:49+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["留学", "学择新西兰", "教育"]
+tags: ["教育", "家庭教育", "跨文化适应"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5808

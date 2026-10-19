@@ -5,10 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 常识
-  - 个体经营者
-  - 科学家
-  - 学择新西兰
+  - 常识与逻辑
+  - 社会观察
+  - 教育
+  - 伦理讨论
 series: []
 wordpress_source: wp_
 wordpress_id: 5911

@@ -3,7 +3,7 @@ title: "Cornwall Park赏樱"
 date: "2018-10-09T11:41:41+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["Cornwall", "Park", "新西兰"]
+tags: ["跨文化适应", "教育", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5806

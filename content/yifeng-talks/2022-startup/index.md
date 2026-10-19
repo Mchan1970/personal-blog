@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 股权
   - 创业
-  - 合伙
+  - 企业管理
+  - 制度设计
+  - 合同治理
 series: []
 wordpress_source: wp_
 wordpress_id: 6356

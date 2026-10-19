@@ -3,7 +3,7 @@ title: "“最好的教育”一定不在中国"
 date: "2018-09-23T08:39:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["教育", "成绩", "老师", "新西兰"]
+tags: ["教育", "家庭教育", "跨文化适应", "观念史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5710

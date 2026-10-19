@@ -5,9 +5,10 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 民族
-  - 群体
-  - 制度
+  - 制度设计
+  - 观念史
+  - 历史
+  - 复杂系统
 series: []
 wordpress_source: wp_
 wordpress_id: 6156

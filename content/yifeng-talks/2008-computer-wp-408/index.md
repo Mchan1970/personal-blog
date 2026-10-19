@@ -5,10 +5,9 @@ draft: false
 categories:
   - 逸峰闲话
 tags:
-  - 顾客
-  - 电脑
-  - 硬件
-  - 质量
+  - 商业模式
+  - 产品逻辑
+  - 常识与逻辑
 series: []
 wordpress_source: wp_
 wordpress_id: 408

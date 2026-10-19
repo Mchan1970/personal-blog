@@ -3,7 +3,7 @@ title: "诺亚方舱"
 date: "2022-11-26T09:13:47+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["方舱", "三体人", "口罩"]
+tags: ["社会观察", "观念史", "制度设计", "复杂系统"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 6287

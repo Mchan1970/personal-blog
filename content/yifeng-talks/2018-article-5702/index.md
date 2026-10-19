@@ -3,7 +3,7 @@ title: "有话好好说，不行吗？"
 date: "2018-09-17T12:39:51+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["瑞典", "新西兰", "酒店"]
+tags: ["跨文化适应", "合同治理", "常识与逻辑", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5702

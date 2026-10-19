@@ -6,9 +6,9 @@ categories:
   - 业主维权
 tags:
   - 业委会
-  - 责权利
   - 共同治理
   - 制度设计
+  - 监督权
 series: []
 ---
 ![题图](Inserted-image-20260224164140.png)

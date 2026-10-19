@@ -3,7 +3,7 @@ title: "职场现形记：再评“月饼门”事件"
 date: "2016-09-17T07:37:20+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["职场", "劳动法", "员工"]
+tags: ["职场生态", "企业管理", "伦理讨论", "常识与逻辑"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 3647

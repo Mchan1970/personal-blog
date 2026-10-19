@@ -3,7 +3,7 @@ title: "学择新西兰（Choose NewZeaLand）【告别篇3】"
 date: "2018-12-22T13:42:16+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学择新西兰", "旅游", "海鸥"]
+tags: ["跨文化适应", "商业模式", "社会观察"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5974

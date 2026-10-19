@@ -3,7 +3,7 @@ title: "贵自有贵的道理"
 date: "2018-09-21T11:36:19+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["学校", "作文", "语言", "新西兰"]
+tags: ["教育", "商业模式", "产品逻辑", "跨文化适应"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 5708

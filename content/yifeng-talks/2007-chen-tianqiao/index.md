@@ -3,7 +3,7 @@ title: "史玉柱的成功是陈天桥的耻辱"
 date: "2007-11-04T04:46:06+08:00"
 draft: false
 categories: ["逸峰闲话"]
-tags: ["史玉柱", "盛大", "陈天桥"]
+tags: ["商业模式", "产品逻辑", "企业管理", "技术史"]
 series: []
 wordpress_source: "wp_"
 wordpress_id: 340
